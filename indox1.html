@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        body{
+            /* background-color:black; */
+            color: rgb(14, 1, 1);
+            font-family: 'Baloo Bhai', cursive;
+            /* background: url(https://stock.adobe.com/search?k=login+background+images); */
+          background: url(https://thumbs.dreamstime.com/b/career-coaching-lo…areer-coaching-logo-design-template-106476735.jpg);
+           background-repeat: no-repeat;
+        }
+        .min{
+            /* border: 2px solid yellow; */
+            margin: 29px auto;
+            display: block;
+            width: 34%;
+        }
+      .navber li{
+        display:inline-block;
+        font-size: 17px;
+      }
+      .navber li a{
+        color: black;
+        text-decoration: none;
+        padding: 20px;
+      }
+        .navber li a:hover{
+          color: red;
+      } 
+      .btn{
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .btn:hover{
+        color: rgb(226, 143, 35);
+      }
+      .con{
+       /* display: block; */
+          text-align: center;
+         
+        /* border: 2px solid black; */
+        /* border-radius: 15px; */
+        /* font-size: 20px; */
+        /* width: 508px; */
+          padding-bottom: px;
+          /* margin: 12px; */
+        /* color: #e75c3c; */
+        /* margin-top: 5px; */
+       
+        }
+
+        .small{
+            visibility: hidden;
+        }
+      .form-group input{
+        display: block;
+        text-align: center;
+        /* margin: 5px auto; */
+        margin-left: 580px;
+        /* padding: 2px; */
+        font-size: 15px;
+        font-family: 'Baloo Bhai', cursive;
+      }
+      .con .Submit{
+        display: block;
+        margin: 22px auto;
+        width: 10%;
+        font-family: 'Baloo Bhai', cursive;
+      }
+      .con .submit:hover{
+        color: rgb(226, 143, 35);
+      }
+      .form-group select
+      {
+        margin-left: 20px;
+       /* margin: 10px 10px; */
+       width: 210px;
+       font-family: 'Baloo Bhai', cursive;
+      }
+      
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="min">
+            <ul class="navber">
+                <li><a href="£">Home</a></li>
+                <li><a href="£">About</a></li>
+                <li><a href="£">Join</a></li>
+                <li><a href="£">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="con">
+      <h3>Join the best Coaching of Indore now</h3>
+        <form action="student.php" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter The Name">
+            <small class="small">Error Message</small>
+         </div>
+         <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter The Email">
+            <small class="small">Error Message</small>
+       </div>
+       <div class="form-group">
+        <label for="lang">Language</label>
+        <select name="language" id ="lang">
+            <option value="java">Java</option>
+            <option value="c,c++">C,C++</option>
+            <option value="php">Php</option>
+            <option value="Javascript">Javascript</option>
+            <option value="python">python</option>
+        </select>
+        <small class="small">Error Message</small>
+     </div>
+     <div class="form-group">
+        <label for="ph">Mobali no</label>
+      <input type="text" name="ph" id="ph" placeholder="Enter The Mobali Number">
+      <small class="small">Error Message</small>
+   </div>
+       <button type="Submit">Submit</button>
+      </form>
+    </div>
+</body>
+</html>
